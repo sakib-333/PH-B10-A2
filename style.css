@@ -110,6 +110,9 @@ body {
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
 .margin-bottom-15 {
   margin-bottom: 15px;
 }
@@ -145,6 +148,15 @@ body {
   color: #fff;
   border-radius: 40px;
   font-weight: 600;
+}
+
+.btn-add-to-cart {
+  border: none;
+  background: rgb(49, 150, 49);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
 .input-field {
@@ -426,6 +438,37 @@ main .section-4 .sec-4-teams .sec-4-team .sec-4-team-text {
   left: 10px;
   bottom: 20px;
 }
+
+/* Section-5 */
+main .section-5 {
+  background: rgb(50, 50, 50);
+  margin: 50px auto 0;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+main .section-5 .sec-5-text {
+  margin: 0 auto;
+  width: 50%;
+}
+main .section-5 .sec-5-products {
+  margin: 40px auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
+main .section-5 .sec-5-products .sec-5-product img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 18px;
+}
+main .section-5 .sec-5-products .sec-5-product {
+  background: rgb(60, 60, 60);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
 /* Media quries for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header .banner {
@@ -530,6 +573,21 @@ main .section-4 .sec-4-teams .sec-4-team .sec-4-team-text {
   }
   main .section-4 .sec-4-teams .sec-4-team .sec-4-team-text small {
     font-size: 0.55rem;
+  }
+  main .section-5 .sec-5-text {
+    width: 80%;
+  }
+  main .section-5 .sec-5-text h1 {
+    font-size: 2.5rem;
+  }
+  main .section-5 .sec-5-products .sec-5-product h4 {
+    font-size: 0.75rem;
+  }
+  main .section-5 .sec-5-products .sec-5-product h5 {
+    font-size: 0.6rem;
+  }
+  main .section-5 .sec-5-products .sec-5-product .btn-add-to-cart {
+    font-size: 0.625rem;
   }
 }
 /* Media quries for small devices */
@@ -649,5 +707,15 @@ main .section-4 .sec-4-teams .sec-4-team .sec-4-team-text {
   }
   main .section-4 .sec-4-teams .sec-4-team-image img {
     aspect-ratio: 1/1;
+  }
+  main .section-5 .sec-5-text {
+    width: 80%;
+  }
+  main .section-5 .sec-5-text h1 {
+    font-size: 2rem;
+  }
+  main .section-5 .sec-5-products {
+    display: flex;
+    flex-direction: column;
   }
 }
