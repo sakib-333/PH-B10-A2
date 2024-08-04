@@ -9,6 +9,10 @@ body {
   background-color: #000;
 }
 
+#banner-shape-text {
+  font-family: "Miama", sans-serif;
+  font-weight: 400;
+}
 /* Common properties */
 .flex {
   display: flex;
@@ -224,6 +228,9 @@ header .navbar .hamburger {
 /* Banner */
 header .banner {
   height: 480px;
+}
+header .banner .banner-text h1 {
+  line-height: 55px;
 }
 header .banner .banner-text {
   max-width: 520px;
@@ -511,6 +518,7 @@ footer .footer-cont .footer-text-right .footer-text-right-first a {
   }
   header .banner .banner-text h1 {
     font-size: 3rem;
+    line-height: 45px;
   }
   header .banner .banner-text .btn-join-club-now {
     height: 45px;
@@ -647,6 +655,7 @@ footer .footer-cont .footer-text-right .footer-text-right-first a {
   }
   header .banner .banner-text h1 {
     font-size: 2.25rem;
+    line-height: 35px;
   }
   header .banner .banner-text .btn-join-club-now {
     height: 40px;
