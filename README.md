@@ -12,6 +12,10 @@
 
 ![Home](https://i.imgur.com/Q5KLQdx.png)
 
+### Tablet version
+
+![Home](https://i.imgur.com/CWNgwJe.png)
+
 ### Mobile version
 
 ![Home](https://i.imgur.com/QDBDjna.png)
