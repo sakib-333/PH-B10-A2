@@ -160,7 +160,7 @@ body {
   font-weight: 600;
 }
 
-.btn-add-to-cart {
+.btn-buy-now {
   border: none;
   background: rgb(49, 150, 49);
   color: #fff;
@@ -325,7 +325,7 @@ main .section-2 {
   border-radius: 18px;
 }
 main .section-2 .sec-2-text {
-  max-width: 400px;
+  width: 400px;
 }
 main .section-2 .sec-2-text .btn-join-now {
   background: rgb(230, 83, 60);
@@ -509,8 +509,13 @@ footer .footer-cont .footer-text-right .footer-text-right-first a {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.25rem;
 }
+footer .footer-cont .footer-text-right .footer-text-right-second a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25rem;
+}
 /* Media quries for medium devices */
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
   header .banner {
     flex-direction: column;
     align-items: flex-start;
@@ -627,7 +632,7 @@ footer .footer-cont .footer-text-right .footer-text-right-first a {
   main .section-5 .sec-5-products .sec-5-product h5 {
     font-size: 0.6rem;
   }
-  main .section-5 .sec-5-products .sec-5-product .btn-add-to-cart {
+  main .section-5 .sec-5-products .sec-5-product .btn-buy-now {
     font-size: 0.625rem;
   }
   footer .footer-cont .footer-text-left {
@@ -704,6 +709,9 @@ footer .footer-cont .footer-text-right .footer-text-right-first a {
     max-width: 95%;
     flex-direction: column;
   }
+  main .section-2 .sec-2-text {
+    width: 100%;
+  }
   main .section-2 .sec-2-text h1 {
     font-size: 2rem;
   }
@@ -770,6 +778,7 @@ footer .footer-cont .footer-text-right .footer-text-right-first a {
     margin-bottom: 30px;
   }
   footer .footer-cont .footer-text-right {
+    flex-direction: column;
     width: 80%;
   }
   footer .footer-cont .footer-text-right .footer-text-right-first {
